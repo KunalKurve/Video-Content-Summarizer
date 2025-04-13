@@ -26,6 +26,7 @@ with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", type="password") if provider == "OpenAI" else None
     hf_api_key = st.text_input("HuggingFace API Token", type="password") if provider == "HuggingFace" else None
 
+
 # 🌐 URL Input
 generic_url = st.text_input("Enter YouTube or Website URL", "")
 
